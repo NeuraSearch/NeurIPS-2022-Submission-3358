@@ -18,15 +18,15 @@ pip install -r requirements.txt
 >  - All the hyper-parameters and configuration settings on in the `configuration.py`. However, please specify the values in the bash files unders `./bash_script` directors.
 
 ## Pre-Process
-To preprocess the file to the model desires, run the following command:
+<!-- To preprocess the file to the model desires, run the following command:
 ```preprocess
 cd bash_script
 ./start_process.sh
 ```
-> - For either FinQA or MathQA dataset, just uncomment the correspoding code block, which prefers the absolute path for the files.
-> - The processed files have been saved into `SAVE_DIR`(argument in `start_process.sh`), so you don't need to process the files by yourself, unless intend to.
-> - Append `force` to the command, like "./start_process.sh force" if there are already processed files under the default `SAVE_DIR`. This will overwrite the existing processed files. Otherwise, without the `force`, will report error.
-
+> - For either FinQA or MathQA dataset, just uncomment the correspoding code block, which prefers the absolute path for the files. -->
+> - The processed files have been saved into `SAVE_DIR`(argument in `start_process.sh`), so you don't need to process the files by yourself.
+> - Append `force` to the command, like "./start_process.sh force" if there are already processed files under <!-- the default `SAVE_DIR`. This will overwrite the existing processed files. Otherwise, without the `force`, will report error.
+ -->
 ## Training
 
 To train the model(s) in the paper, run this command:
