@@ -25,7 +25,7 @@ cd bash_script
 ```
 > - For either FinQA or MathQA dataset, just uncomment the correspoding code block, which prefers the absolute path for the files. -->
 > - The processed files have been saved into `SAVE_DIR`(argument in `start_process.sh`), so you don't need to process the files by yourself.
-> - Append `force` to the command, like "./start_process.sh force" if there are already processed files under <!-- the default `SAVE_DIR`. This will overwrite the existing processed files. Otherwise, without the `force`, will report error.
+<!-- > - Append `force` to the command, like "./start_process.sh force" if there are already processed files under the default `SAVE_DIR`. This will overwrite the existing processed files. Otherwise, without the `force`, will report error.
  -->
 ## Training
 
