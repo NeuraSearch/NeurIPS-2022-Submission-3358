@@ -13,7 +13,6 @@ import torch.optim as optim
 
 from transformers import get_linear_schedule_with_warmup
 from utils import AverageMeter, str_to_num_2, inverse_sigmoid_decay
-from process_data.pre_process import DataReader
 from models.calculate_metrics_finqanet import eval_program, equal_program
 
 class ModelWrapper:
