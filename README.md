@@ -96,7 +96,7 @@ Other provided prediction file under `./prediction_results` directory:
 
 You can download pretrained models here:
 
-- [ELASTIC (RoBERTa-large) for FinQA](https://drive.google.com/file/d/1UEBbFMSYWuIe65LsZQT6SuFsZBA7xD7m/view?usp=sharing).
+- [ELASTIC (RoBERTa-large) for FinQA](https://drive.google.com/file/d/13HKmOp4o_-nKxjF5l-pKPW6n1RZ55WZ-/view?usp=sharing).
 - [ELASTIC (RoBERTa-large) for MathQA](https://drive.google.com/file/d/1Q6XEstn678tzHMxiaOKLJpqtQot_2T1s/view?usp=sharing).
 
 > - For evaluation use:
